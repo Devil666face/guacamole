@@ -37,4 +37,4 @@ echo "<user-mapping>
 </user-mapping>" > /etc/guacamole/user-mapping.xml
 sudo systemctl restart tomcat9
 sudo systemctl restart guacd
-echo "Подключитесь к http://your_ip:8080/guacamole логин kladmin пароль $PASSWORD"
+echo "Подключитесь к http://your_ip:8080/guacamole логин $USER пароль $PASSWORD"
